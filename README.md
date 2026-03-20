@@ -3,7 +3,7 @@
 **Hybrid Mamba-Transformer with Multi-Scale Dilated Attention for Small Target Detection in Sonar Images**
 
 <p align="center">
-  <img src="assets/MambaDSF.png" width="100%" alt="MambaDSF Architecture">
+  <img src="assets/MambaDSF_Architecture.png" width="100%" alt="MambaDSF Architecture">
 </p>
 
 ## Overview
@@ -25,7 +25,7 @@ MambaDSF consists of three main components:
 ### Qualitative Comparison
 
 <p align="center">
-  <img src="assets/Compare.png" width="100%" alt="Detection Comparison">
+  <img src="assets/Compare120dpi.png" width="100%" alt="Detection Comparison">
 </p>
 
 *Qualitative comparison on representative UATD test samples across eight detection methods.*
