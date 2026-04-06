@@ -1,0 +1,61 @@
+task: detection
+
+evaluator:
+  type: YOLOEvaluator
+  num_classes: 10
+
+num_classes: 10
+
+# UATD class names
+# 0: ball, 1: circle cage, 2: cube, 3: cylinder, 4: human body
+# 5: metal bucket, 6: plane, 7: rov, 8: square cage, 9: tyre
+
+train_dataloader: 
+  type: DataLoader
+  dataset: 
+    type: YOLODetection
+    img_folder: /path/to/UATD/images/train/
+    label_folder: /path/to/UATD/labels/train/
+    num_classes: 10
+    transforms:
+      type: Compose
+      ops: ~
+  shuffle: True
+  num_workers: 4
+  drop_last: True 
+  collate_fn:
+    type: BatchImageCollateFuncion
+
+
+val_dataloader:
+  type: DataLoader
+  dataset: 
+    type: YOLODetection
+    img_folder: /path/to/UATD/images/val/
+    label_folder: /path/to/UATD/labels/val/
+    num_classes: 10
+    transforms:
+      type: Compose
+      ops: ~ 
+  shuffle: False
+  num_workers: 4
+  drop_last: False
+  collate_fn:
+    type: BatchImageCollateFuncion
+
+
+test_dataloader:
+  type: DataLoader
+  dataset: 
+    type: YOLODetection
+    img_folder: /path/to/UATD/images/test/
+    label_folder: /path/to/UATD/labels/test/
+    num_classes: 10
+    transforms:
+      type: Compose
+      ops: ~ 
+  shuffle: False
+  num_workers: 4
+  drop_last: False
+  collate_fn:
+    type: BatchImageCollateFuncion
