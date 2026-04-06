@@ -20,7 +20,7 @@ MambaDSF consists of three main components:
 
 1. **MambaFPN Backbone**: Couples MambaVision with a bidirectional feature pyramid (FPN + PANet) for multi-scale extraction and long-range dependency modeling.
 2. **DFMamba Encoder**: Performs intra-scale dilated attention at four receptive-field scales and cross-scale SSM fusion for semantic alignment.
-3. **Loss Design**: SA-WIoU (Size-Adaptive Wasserstein-IoU) for small target regression and CSC (Cross-Scale Semantic Consistency) loss for multi-scale feature alignment.
+3. **SA-WIoU & CSC Loss**: SA-WIoU (Size-Adaptive Wasserstein-IoU) for small target regression and CSC (Cross-Scale Semantic Consistency) loss for multi-scale feature alignment.
 
 ### Qualitative Comparison
 
