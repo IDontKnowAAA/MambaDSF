@@ -1,5 +1,7 @@
 # MambaDSF
 
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
 **Hybrid Mamba-Transformer with Multi-Scale Dilated Attention for Small Target Detection in Sonar Images**
 
 <p align="center">
@@ -55,3 +57,11 @@ This work was supported in part by the National Natural Science Foundation of Ch
 - Hui Lin: harrylin929@gmail.com
 - Jiayi Li: leanolee58@gmail.com
 - Shenghui Rong (Corresponding): rsh@ouc.edu.cn
+
+## License
+
+This project is licensed under the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) License.
+
+- **Academic use only**: Commercial use is prohibited without explicit permission.
+- **Attribution required**: Please cite our paper if you use this code.
+- **ShareAlike**: Modifications must be distributed under the same license.
