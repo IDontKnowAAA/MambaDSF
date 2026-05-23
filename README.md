@@ -1,9 +1,9 @@
 # MambaDSF
 
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
-[![Paper Status](https://img.shields.io/badge/Paper-Under%20Review-orange.svg)]()
+[![Paper Status](https://img.shields.io/badge/Paper-Revised%20Submission-orange.svg)](https://www.grss-ieee.org/publications/geoscience-and-remote-sensing-letters/)
 
-**Hybrid Mamba-Transformer with Multi-Scale Dilated Attention for Small Target Detection in Sonar Images**
+## Multi-Scale State-Space Model with Dilated Feature Fusion for Sonar Small Target Detection
 
 > ⚠️ **Notice**: This paper is currently **under review** at *IEEE Geoscience and Remote Sensing Letters (GRSL)*. Please do not publish derivative works or competing papers based on this code before our paper is officially published. If you wish to use this code for academic research, please contact us first.
 
@@ -13,24 +13,26 @@
 
 ## Overview
 
-MambaDSF is a hybrid framework that leverages selective state space models (SSMs) for linear-complexity global context modeling in sonar imagery. The framework addresses three key challenges in small target detection:
+MambaDSF is a sonar small-target detection framework that integrates selective state-space modeling with dilated feature fusion. It is designed for forward-looking sonar imagery, where target echoes are often compact, low-contrast, and easily confused with reverberation or background structures.
 
-- **Scarce discriminative features**: Small targets span limited pixels and may reduce to one or two feature-map cells after downsampling.
-- **Low signal-to-noise ratio**: Target responses are comparable in intensity to reverberation and speckle noise.
-- **Scale ambiguity**: Apparent target size varies with imaging range and resolution.
+The framework addresses three practical challenges:
+
+- **Scarce target pixels**: Small sonar targets occupy limited image regions and may collapse to very few feature-map cells after downsampling.
+- **Background ambiguity**: Reverberation, speckle-like noise, and object-shaped clutter can produce echo patterns that resemble true targets.
+- **Multi-scale appearance variation**: The apparent target size and echo envelope vary with imaging range, viewpoint, and dataset domain.
 
 ## Architecture
 
-MambaDSF consists of three main components:
+MambaDSF consists of three main components synchronized with the current manuscript:
 
-1. **MambaFPN Backbone**: Couples MambaVision with a bidirectional feature pyramid (FPN + PANet) for multi-scale extraction and long-range dependency modeling.
-2. **DFMamba Encoder**: Performs intra-scale dilated attention at four receptive-field scales and cross-scale SSM fusion for semantic alignment.
-3. **SA-WIoU & CSC Loss**: SA-WIoU (Size-Adaptive Wasserstein-IoU) for small target regression and CSC (Cross-Scale Semantic Consistency) loss for multi-scale feature alignment.
+1. **MambaEFP Backbone**: Enhances MambaVision with efficient feature-pyramid propagation for global acoustic context modeling and multi-scale feature extraction.
+2. **DFMamba Encoder**: Combines dilated local attention with Fusion State-Space Modeling (FusSSM) to align local target details and cross-scale semantic information.
+3. **SA-WIoU & CSC Losses**: Introduces Scale-Adaptive Weighted IoU (SA-WIoU) for small-target localization and Cross-Scale Semantic Consistency (CSC) for feature alignment across detection scales.
 
 ### Qualitative Comparison
 
 <p align="center">
-  <img src="assets/Compare120dpi.png" width="100%" alt="Detection Comparison">
+  <img src="assets/Compare5.png" width="100%" alt="Detection Comparison">
 </p>
 
 *Qualitative comparison on representative UATD test samples across eight detection methods.*
@@ -57,9 +59,10 @@ This work was supported in part by the National Natural Science Foundation of Ch
 
 ## Contact
 
-- Hui Lin: harrylin929@gmail.com
-- Jiayi Li: leanolee58@gmail.com
-- Shenghui Rong (Corresponding): rsh@ouc.edu.cn
+- Hui Lin: [harrylin929@gmail.com](mailto:harrylin929@gmail.com)
+- Jiayi Li: [leanolee58@gmail.com](mailto:leanolee58@gmail.com) ([GitHub](https://github.com/leanoLEE58))
+- Jing Wang: [wangjingname@gmail.com](mailto:wangjingname@gmail.com)
+- Shenghui Rong (Corresponding): [rsh@ouc.edu.cn](mailto:rsh@ouc.edu.cn)
 
 ## License
 
