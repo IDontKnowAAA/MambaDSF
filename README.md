@@ -35,7 +35,7 @@ MambaDSF consists of three main components synchronized with the current manuscr
   <img src="assets/Compare5.png" width="100%" alt="Detection Comparison">
 </p>
 
-*Qualitative comparison on representative UATD test samples across eight detection methods.*
+*Qualitative comparison on representative UATD, FLS and MD-FLS test samples across eight detection methods.*
 
 ## Installation
 
