@@ -1,11 +1,11 @@
 # MambaDSF
 
-[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
-[![Paper Status](https://img.shields.io/badge/Paper-Revised%20Submission-orange.svg)](https://www.grss-ieee.org/publications/geoscience-and-remote-sensing-letters/)
+[![License: arXiv.org perpetual license](https://img.shields.io/badge/License-arXiv.org%20perpetual%20license-blue.svg)](https://arxiv.org/licenses/nonexclusive-distrib/1.0/license.html)
+[![Paper Status](https://img.shields.io/badge/Paper-arXiv%20preprint-blue.svg)](https://arxiv.org/)
 
 ## Multi-Scale State-Space Model with Dilated Feature Fusion for Sonar Small Target Detection
 
-> ⚠️ **Notice**: This paper is currently **under review** at *IEEE Geoscience and Remote Sensing Letters (GRSL)*. Please do not publish derivative works or competing papers based on this code before our paper is officially published. If you wish to use this code for academic research, please contact us first.
+> **Notice**: This manuscript is publicly available as an arXiv preprint and has been submitted to *IEEE Geoscience and Remote Sensing Letters (GRSL)*.
 
 <p align="center">
   <img src="assets/MambaDSF_Architecture.png" width="100%" alt="MambaDSF Architecture">
@@ -66,8 +66,6 @@ This work was supported in part by the National Natural Science Foundation of Ch
 
 ## License
 
-This project is licensed under the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) License.
+The arXiv preprint is distributed under the [arXiv.org perpetual, non-exclusive license](https://arxiv.org/licenses/nonexclusive-distrib/1.0/license.html).
 
-- **Academic use only**: Commercial use is prohibited without explicit permission.
-- **Attribution required**: Please cite our paper if you use this code.
-- **ShareAlike**: Modifications must be distributed under the same license.
+Please cite the arXiv preprint if you use this work.
