@@ -1,11 +1,11 @@
 # MambaDSF
 
 [![License: arXiv.org perpetual license](https://img.shields.io/badge/License-arXiv.org%20perpetual%20license-blue.svg)](https://arxiv.org/licenses/nonexclusive-distrib/1.0/license.html)
-[![Paper Status](https://img.shields.io/badge/Paper-arXiv%20preprint-blue.svg)](https://arxiv.org/)
+[![Paper Status](https://img.shields.io/badge/Paper-Accepted%20(GRSL)-green.svg)](https://ieeexplore.ieee.org/)
 
 ## Multi-Scale State-Space Model with Dilated Feature Fusion for Sonar Small Target Detection
 
-> **Notice**: This manuscript is publicly available as an arXiv preprint and has been submitted to *IEEE Geoscience and Remote Sensing Letters (GRSL)*.
+> **Notice**: This manuscript has been **accepted for publication** in *IEEE Geoscience and Remote Sensing Letters (GRSL)*. The arXiv version is the accepted preprint; please cite the published version once available.
 
 <p align="center">
   <img src="assets/MambaDSF_Architecture.png" width="100%" alt="MambaDSF Architecture">
@@ -64,8 +64,19 @@ This work was supported in part by the National Natural Science Foundation of Ch
 - Jing Wang: [wangjingname@gmail.com](mailto:wangjingname@gmail.com)
 - Shenghui Rong (Corresponding): [rsh@ouc.edu.cn](mailto:rsh@ouc.edu.cn)
 
+## Citation
+
+If you use this work, please cite:
+
+```bibtex
+@article{Lin2026MambaDSF,
+  title={MambaDSF: Multi-Scale State-Space Model with Dilated Feature Fusion for Sonar Small Target Detection},
+  author={Lin, Hui and Li, Jiayi and Wang, Jing and Rong, Shenghui},
+  journal={IEEE Geoscience and Remote Sensing Letters},
+  year={2026}
+}
+```
+
 ## License
 
-The arXiv preprint is distributed under the [arXiv.org perpetual, non-exclusive license](https://arxiv.org/licenses/nonexclusive-distrib/1.0/license.html).
-
-Please cite the arXiv preprint if you use this work.
+This project (the code) is released under the [MIT License](LICENSE).
