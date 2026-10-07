@@ -1,6 +1,6 @@
 # MambaDSF
 
-[![License: arXiv.org perpetual license](https://img.shields.io/badge/License-arXiv.org%20perpetual%20license-blue.svg)](https://arxiv.org/licenses/nonexclusive-distrib/1.0/license.html)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Paper Status](https://img.shields.io/badge/Paper-Accepted%20(GRSL)-green.svg)](https://ieeexplore.ieee.org/)
 
 ## Multi-Scale State-Space Model with Dilated Feature Fusion for Sonar Small Target Detection
@@ -26,7 +26,7 @@ The framework addresses three practical challenges:
 MambaDSF consists of three main components synchronized with the current manuscript:
 
 1. **MambaEFP Backbone**: Enhances MambaVision with efficient feature-pyramid propagation for global acoustic context modeling and multi-scale feature extraction.
-2. **DFMamba Encoder**: Combines dilated local attention with Fusion State-Space Modeling (FusSSM) to align local target details and cross-scale semantic information.
+2. **DF-Mamba Encoder**: Combines dilated local attention with Fusion State-Space Modeling (FusSSM) to align local target details and cross-scale semantic information.
 3. **SA-WIoU & CSC Losses**: Introduces Scale-Adaptive Weighted IoU (SA-WIoU) for small-target localization and Cross-Scale Semantic Consistency (CSC) for feature alignment across detection scales.
 
 ### Qualitative Comparison
