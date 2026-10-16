@@ -1,7 +1,7 @@
 # MambaDSF
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Paper Status](https://img.shields.io/badge/Paper-Accepted%20(GRSL)-green.svg)](https://ieeexplore.ieee.org/)
+[![Paper Status](https://img.shields.io/badge/Paper-GRSL-green.svg)](https://ieeexplore.ieee.org/)
 
 ## Multi-Scale State-Space Model with Dilated Feature Fusion for Sonar Small Target Detection
 
@@ -13,7 +13,7 @@
 
 ## Overview
 
-MambaDSF is a sonar small-target detection framework that integrates selective state-space modeling with dilated feature fusion. It is designed for forward-looking sonar imagery, where target echoes are often compact, low-contrast, and easily confused with reverberation or background structures.
+MambaDSF is a sonar small-target detector that integrates selective state-space modeling with dilated feature fusion. It is designed for forward-looking sonar imagery, where target echoes are often compact, low-contrast, and easily confused with reverberation or background structures.
 
 The framework addresses three practical challenges:
 
