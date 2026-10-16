@@ -1,7 +1,7 @@
 # MambaDSF
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Paper Status](https://img.shields.io/badge/Paper-GRSL-green.svg)]([https://ieeexplore.ieee.org/](https://ieeexplore.ieee.org/document/11733606))
+[![Paper Status](https://img.shields.io/badge/Paper-GRSL-green.svg)](https://ieeexplore.ieee.org/document/11733606)
 
 ## Multi-Scale State-Space Model with Dilated Feature Fusion for Sonar Small Target Detection
 
