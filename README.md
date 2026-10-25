@@ -69,12 +69,16 @@ This work was supported in part by the National Natural Science Foundation of Ch
 If you use this work, please cite:
 
 ```bibtex
-@article{Lin2026MambaDSF,
-  title={MambaDSF: Multi-Scale State-Space Model with Dilated Feature Fusion for Sonar Small Target Detection},
+@ARTICLE{11733606,
   author={Lin, Hui and Li, Jiayi and Wang, Jing and Rong, Shenghui},
-  journal={IEEE Geoscience and Remote Sensing Letters},
-  year={2026}
-}
+  journal={IEEE Geoscience and Remote Sensing Letters}, 
+  title={MambaDSF: Multi-Scale State-Space Model with Dilated Feature Fusion for Sonar Small Target Detection}, 
+  year={2026},
+  volume={},
+  number={},
+  pages={1-1},
+  keywords={Modeling;Sonar;Object detection;Boats;Bottling;Planing;Distance measurement;Sonar imagery;small target detection;state-space model (SSM);Mamba-based Dilated Scale Fusion (MambaDSF);multi-scale feature fusion},
+  doi={10.1109/LGRS.2026.3742132}}
 ```
 
 ## License
