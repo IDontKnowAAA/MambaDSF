@@ -72,12 +72,12 @@ If you use this work, please cite:
 @ARTICLE{11733606,
   author={Lin, Hui and Li, Jiayi and Wang, Jing and Rong, Shenghui},
   journal={IEEE Geoscience and Remote Sensing Letters}, 
-  title={MambaDSF: Multi-Scale State-Space Model with Dilated Feature Fusion for Sonar Small Target Detection}, 
+  title={MambaDSF: Multiscale State-Space Model With Dilated Feature Fusion for Sonar Small-Target Detection}, 
   year={2026},
-  volume={},
+  volume={23},
   number={},
-  pages={1-1},
-  keywords={Modeling;Sonar;Object detection;Boats;Bottling;Planing;Distance measurement;Sonar imagery;small target detection;state-space model (SSM);Mamba-based Dilated Scale Fusion (MambaDSF);multi-scale feature fusion},
+  pages={1506205-1506205},
+  keywords={Modeling;Sonar;Object detection;Boats;Bottling;Planing;Distance measurement;Mamba-based dilated scale fusion (MambaDSF);multiscale feature fusion;small-target detection;Sonar imagery;state-space model (SSM)},
   doi={10.1109/LGRS.2026.3742132}}
 ```
 
